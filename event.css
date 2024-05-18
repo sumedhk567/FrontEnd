@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 100vh;
+    width: 100%;
+}
+.container-fluid{
+    height: 100%;
+    width: 100%;
+    display: flex;    
+    justify-content: end;
+    align-items: center;        
+}
+.userDetailBox{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#username{
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    height: 30%;
+    width: 50vw;
+}
+h1{
+    margin-bottom: 0;
+}
+#password{
+    margin-top: .3rem;
+    height: 30%;
+    width: 50vw;
+}
+#userBox{
+    margin-bottom: 1rem;   
+}
+#pwdBox{
+    position: relative;
+}
+/* #pwdinput:hover{
+    background-color: black;
+} */
+
+@media(min-width:576px){
+    #password{
+        margin-top: .3rem;
+        height: 50%;
+        width: 100%;
+        font-size: 1.5em;
+        border: 5px solid rgb(55, 36, 163);
+        border-radius: .7em;
+    }
+
+    .userDetailBox{
+        height: 80%;
+        width: 50%;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        border: 5px solid goldenrod;
+        border-radius: 3px;
+    }
+
+    h1{
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+    
+
+    #username{
+        margin-top: .3rem;
+        margin-bottom: 1rem;
+        height: 50%;
+        width: 100%;
+        font-size: 1.5em;
+        border: 5px solid rgb(55, 36, 163);
+        border-radius: .7em;
+    }
+    /* .btn:hover{
+        background-color: blue;
+        color: orange;
+    } */
+    #login{
+        margin-top: 3rem;
+        height: 7vh;
+        width: 15vw;
+    }
+
+    #loginbtn{
+        margin-top: 3.8rem;
+        height: 7vh;
+        width: 15vw;
+        font-size: 1.5rem;
+    }
+    #verify{
+        /* margin-top; */
+        /* background: black; */
+        height: 100%;
+        width: 100%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #pwdinput{
+        text-align: center;
+    }
+}
