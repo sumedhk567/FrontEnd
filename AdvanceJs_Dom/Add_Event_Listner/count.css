@@ -1,0 +1,44 @@
+body{
+    background: black;
+    color: white;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.container-fluid{
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#heading{
+    text-align: center;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+}
+#increment{
+    font-size:3rem;
+    margin-left:1rem;
+    width: 10vw;
+}
+#decrement{
+    margin-right:1rem;
+    font-size:3.5rem;
+    width: 10vw;
+}
+#increButton{
+    display: flex;    
+}
+#decrButton{
+    display: flex;
+}
+h1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* font-size: 1.5em; */
+}
